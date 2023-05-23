@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "description": "my first library",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {},
   "license": "MIT",
   "dependencies": {
