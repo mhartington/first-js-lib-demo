@@ -1,5 +1,5 @@
 {
-  "name": "mh-utils",
+  "name": "mh-file-utils",
   "version": "0.0.1",
   "description": "my first library",
   "main": "index.js",
