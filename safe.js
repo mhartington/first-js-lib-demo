@@ -1,6 +1,6 @@
 const fs = require('fs-extra');
 
-export async function stat(p) {
+async function stat(p) {
   try {
     return await fs.stat(p);
   } catch (e) {
@@ -8,10 +8,12 @@ export async function stat(p) {
   }
 }
 
-export async function readdir() {
+async function readdir() {
   try {
     return await fs.readdir(dir);
   } catch (e) {
     return [];
   }
 }
+
+module.exports = { readdir, stat }
