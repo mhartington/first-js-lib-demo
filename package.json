@@ -1,5 +1,6 @@
 {
   "name": "mh-file-utils",
+  "type": "module",
   "version": "0.0.1",
   "description": "my first library",
   "main": "index.js",
