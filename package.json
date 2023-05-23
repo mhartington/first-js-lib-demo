@@ -1,0 +1,11 @@
+{
+  "name": "mh-utils",
+  "version": "0.0.1",
+  "description": "my first library",
+  "main": "index.js",
+  "scripts": {},
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^11.1.1"
+  }
+}
