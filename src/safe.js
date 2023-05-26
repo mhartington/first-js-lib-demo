@@ -1,5 +1,5 @@
-import { stat as _stat, readdir as _readdir } from 'fs';
-import 'fs-extra/esm'
+import { stat as _stat, readdir as _readdir } from 'fs/promises';
+import "fs-extra/esm";
 
 async function stat(p) {
   try {

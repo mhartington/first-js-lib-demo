@@ -1,6 +1,6 @@
 import { readFile } from 'fs/promises'
-import 'fs-extra/esm';
-import { stat as statSafe, readdir as readdirSafe } from './safe.mjs';
+import "fs-extra/esm";
+import { stat as statSafe, readdir as readdirSafe } from './safe.js';
 
 async function fileToString(filePath) {
   try {
