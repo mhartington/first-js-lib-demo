@@ -2,9 +2,7 @@ import { stat as _stat, readdir as _readdir } from 'fs/promises';
 import "fs-extra/esm";
 
 async function stat(p) {
-  try {
-    return await _stat(p);
-  } catch (e) {
+  try { return await _stat(p); } catch (e) {
     // ignore
   }
 }
